@@ -32,9 +32,7 @@ sort.click(()=>{
   $('ul .completed').appendTo(listItems)
 })
 
-
-
-  function clickitem(){
+function clickitem(){
     if (taskInput.val()!== '') {
       var list = $("<li>", {
         class: "list-group-item item ",
